@@ -10,10 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/mypum/test-package.git"
   },
-  "author": "",
+  "author": "Pum",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mypum/test-package/issues"
   },
-  "homepage": "https://github.com/mypum/test-package#readme"
+  "homepage": "https://github.com/mypum/test-package#readme",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
 }
